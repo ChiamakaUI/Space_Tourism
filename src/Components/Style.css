@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+body{
+    /* background-color: #000;
+    opacity: 0.8; */
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0px auto;
+    padding: 3% 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    z-index: 1;
+}
+
+#hr{
+    width: 250px;
+    background-color: #979797;
+}
+
+.navigation{
+    background-color: #979797;
+    padding: 20px;
+}
+
+.navigation ul{
+    display: inline;
+    padding: 20px;
+    /* text-decoration: none; */
+ 
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline;
+  padding: 25px;
+  font-size: 18px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  /* color: hsl(0, 0%, 100%);
+  cursor: pointer; */
+}
+
+
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.home{
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-size:cover;
+    height: 100vh;
+    /* height: auto; */
+    /* padding: 30px; */
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+
+.home_text{
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    width: 32%;
+    /* margin-left: 5%; */
+}
+
+.home_text h4{
+    color: #D0D9F9;
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    /* margin-left: -10px; */
+}
+
+.home_text h1{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 2px 0;
+}
+
+.home_text p{
+    color: #D0D9F9;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 5px;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.explore{
+    /* background-color: ; */
+    display: none;
+}
+
+.destination{
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    height: 100vh;
+    background-size:cover;
+    position: relative;
+    
+}
+
+.destination h3{
+    margin-left: 100px;
+    margin-top: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 28px;
+    padding-top: 110px;
+    padding-left: 100px;
+    /* padding: 200px 0; */
+}
+
+#des_number{
+    margin-right: 15px;
+}
+
+.subNav{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 85%; */
+    margin: 0 auto;
+    /* padding: 3% 0; */
+    position: absolute;
+    right: 22%;
+    top: 25%;
+}
+
+.subNav ul{
+    display: inline;
+    padding: 20px;
+}
+
+.subNav ul li {
+  list-style: none;
+  display: inline;
+  padding: 25px;
+  color: #ffffff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  /* color: hsl(0, 0%, 100%);
+  cursor: pointer; */
+}
+
+.subNav ul li a{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.destinationContent{
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.crew{
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    height: 100vh;
+    position: relative;
+    background-size:cover;
+}
+.crew h3{
+    margin-left: 100px;
+    margin-top: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 28px;
+    padding-top: 180px;
+    padding-left: 100px;
+    /* padding: 200px 0; */
+}
+
+#crew_number{
+    margin-right: 15px;
+}
+
+.technology{
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+    height: 100vh;
+    position: relative;
+    background-size:cover;
+}
+
+.planet{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.planet_text{
+    width: 40%;
+}
+.planet_image{
+    width: 40%;
+}
+
+.planet_text h1{
+    font-size: 100px;
+    font-family: 'Bellefair', serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.planet_text p{
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+     color: #ffffff;
+     margin-top: 10px;
+}
+
+hr{
+    color: #ffffff;
+    width: 100%;
+}
+.travelDesc{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin: 10px auto;
+}
+/* .avg, .est{
+    width: 40%;
+    
+} */
+
+.est p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.avg p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.avg, .est h3{
+    font-family: 'Bellefair', serif;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.avg h3{
+    font-family: 'Bellefair', serif;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+/* .crew_member{
+    display: none;
+} */
+
+.showing{
+    display: none;
+}
+
+.crew_member{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+}
+
+/* .showing{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+} */
+
+.crew_member_text{
+    width: 40%;
+}
+
+.crew_member_image{
+    width: 40%;
+}
+
+.crew_member_image img{
+    height: 410px;
+    width: 550px
+}
+.crew_member_text h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+      -webkit-text-stroke: 1px black;
+      margin-bottom: 2px;
+}
+
+.crew_member_text h2{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.crew_member_text p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    color: #D0D6F9;
+}
+.dots{
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    /* margin: 180px; */
+    /* padding: 200px; */
+}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.technology h3{
+    margin-left: 100px;
+    margin-top: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 28px;
+    padding-top: 120px;
+    padding-left: 100px;
+    /* padding: 200px 0; */
+}
+
+#tech_number{
+    margin-right: 15px;
+}
+.techNav{
+     /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* width: 85%; */
+    margin: 0 auto;
+    /* padding: 3% 0; */
+    position: absolute;
+    left: 3%;
+    top: 30%;
+}
+
+.techNav ul{
+    /* display: inline; */
+    padding: 20px;
+}
+
+.techNav ul li {
+  list-style: none;
+  /* display: inline; */
+  padding: 25px;
+  color: #ffffff;
+  /* background-color: #000; */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  /* color: hsl(0, 0%, 100%); */
+  cursor: pointer;
+}
+.techNav ul li a {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+}
+
+.equipment{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    float: right;
+    margin: 10px 0;
+}
+
+.termin{
+    font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 2px;
+  
+}
+
+.equipment_text{
+    width: 60%;
+}
+.equipment_text h2{
+      font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.equipment_text p{
+      font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  color: #D0D6F9;
+   margin-top: 3px;
+}
+
+.equipment_image img{
+    height: 450px;
+}
